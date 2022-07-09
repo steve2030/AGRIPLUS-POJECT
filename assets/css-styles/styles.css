@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
+/* --start of menubar-- */
+.menubar{
+    display:flex;
+    background-color: black;
+    color: white;
+    /* padding: 12px; */
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo p a{
+    font-weight: 700;
+    margin: 0;
+    font-size: 55px;
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    right: -5%;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    padding: 10px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+        
+}
+nav ul li a:hover{
+    color: #ed661f;
+  
+}
+nav ul li a:active{
+    color: white;
+    text-decoration: underline;
+}
+#login{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 15px;
+    margin-right: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+#start{
+    color: white;
+    background-color: #ed661f;
+    border: none;
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+/* --end of menubar-- */
+/*--start of container--*/
+
+.container{
+    width: 100%;
+    height: 550px;
+    background-size: 100% 100%;
+    background-image: url('assets/images/image1.png');
+    background-repeat: no-repeat;
+    background-position: fixed;    
+}
+.buying{
+    margin: 150px 0 0 100px;
+}
+.buying h1{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.buying p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.buying button{
+    color: white;
+    background-color: #ed661f;
+    padding: 12px;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container img{
+    width: 45%;
+    position: relative;
+    left: 50%;
+    margin-top: -500px;
+}
+.innercontainer{
+    padding: 32px 24px 32px 24px;
+    font-size: 20px;
+    background-color: white;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 40%;
+    box-shadow: 2px 2px 5px grey;
+}
+/* --end of container-- */
+/* --START of first container-- */
+.container1{
+    margin-top: 160px;
+    margin-bottom: 70px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    left: 40%;
+}
+.container1content{
+    width: fit-content;
+}
+.container1content p{
+    margin-top: 25px;
+}
+.container1img{
+    width: 50%;
+    float: inherit;
+}
+.container1img img{
+    width: 100%;
+}
+/* --end of first container-- */
+/* --START of SECOND container-- */
+.container2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2 h2{
+    text-align: center;
+    margin-bottom: 6px;
+}
+.container2 p{
+    text-align: center;
+    margin-top: 15px;
+}
+.popular h2{
+    text-align: left;
+    margin-top: 20px;
+}
+.popular{
+    margin-top: 50px;
+}
+/* ==START OF GRID: POPULAR */
+.grid{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.carrot{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.carrot img{
+    width:100%
+}
+.carrot p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.carrot a h4, h5 ,p{
+    color: black;
+}
+
+.cereal{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.cereal img{
+    width:100%
+}
+.cereal p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.cereal a h4, h5 ,p{
+    color: black;
+}
+
+.fish{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.fish img{
+    width:100%
+}
+.fish p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.fish a h4, h5 ,p{
+    color: black;
+}
+
+.kales{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.kales img{
+    width:100%
+}
+.kales p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.kales a h4, h5 ,p{
+    color: black;
+}
+/* ==END OF GRID POPULAR== */
+/* ==START OF GRID: NEW */
+.grid2{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.chicken{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.chicken img{
+    width:100%
+}
+.chicken p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.chicken a h4, h5 ,p{
+    color: black;
+}
+
+.ahero{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.ahero img{
+    width:100%
+}
+.ahero p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.ahero a h4, h5 ,p{
+    color: black;
+}
+
+.mursik{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.mursik img{
+    width:100%
+}
+.mursik p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.mursik a h4, h5 ,p{
+    color: black;
+}
+
+.tomatoes{
+    width: 75%;
+    cursor: pointer;
+    padding: 14px;
+}
+.tomatoes img{
+    width:100%
+}
+.tomatoes p{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.tomatoes a h4, h5 ,p{
+    color: black;
+}
+/* ==end OF GRID: NEW */
+
+
+
+
+
+
+
+
+
+
+
+/* --END of SECOND container-- */
+
+
+.footercontainer{
+    width: 100%;
+    
+}
+.footer2{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#section1{
+    width: 50%;
+}
+.social img{
+    width: 10%;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==Begining of footer==*/
+
