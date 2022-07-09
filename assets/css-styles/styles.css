@@ -84,9 +84,9 @@ nav ul li a:active{
     width: 100%;
     height: 550px;
     background-size: 100% 100%;
-    background-image: url(assets/images/image1.png);
+    background-image: url(assets/iimagesmages/image1.png);
     background-repeat: no-repeat;
-    background-position: fixed;    
+    /*background-position: fixed; */   
 }
 .buying{
     margin: 150px 0 0 100px;
