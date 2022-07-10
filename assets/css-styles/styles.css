@@ -3,9 +3,9 @@
 *{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* overflow: hidden; */
+    /* overflow hiding*/
 }
-/* menu bar starts her*/
+/* menu */
 .menubar{
     display:flex;
     background-color: black;
